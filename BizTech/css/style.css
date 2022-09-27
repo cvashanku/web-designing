@@ -1,0 +1,46 @@
+	  *{
+	  padding:0px;
+	  margin:0px auto;
+	  }
+	  a{
+	  text-decoration:none;
+	  }
+/**********************************header-start******************************/
+	  .header{
+	  height:80px;
+	  width:100%;
+	  }
+/*********************************header-logo*******************************/
+	  .header-logo{
+	  height:80px;
+	  width:40%;
+	  float:left;
+	  text-align:center;
+	  padding-top:25px;
+	  font-size:30px;
+	  color:#054e9d;
+	  }
+/********************************header-navbar*****************************/
+      .header-navbar{
+	  height:80px;
+	  width:60%;
+	  float:left;
+	  padding-top:25px;
+	  }
+	  .header-navbar a{
+	  padding-right:35px;
+	  }
+/*******************************header-end********************************/
+/*************************************footer-start****************************/
+	  #footer{
+	  height:80px;
+	  width:100%;
+	  background:#04394f; 
+	  margin-top:150px;
+	  text-align:center;
+	  padding-top:10px;
+	  }
+	  #footer p{
+	  padding-top:10px;
+	  }
+/*************************************footer-end********************************/

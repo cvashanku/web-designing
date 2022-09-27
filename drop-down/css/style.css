@@ -1,0 +1,101 @@
+	  *{
+	  padding:0px;
+	  margin:0px auto;
+	  }
+	  a{
+	  text-decoration:none;
+	  }
+/**********************************header-start******************************/
+	  .header{
+	  height:80px;
+	  width:100%;
+	  background:;
+	  }
+/*********************************header-logo*******************************/
+	  .header-logo{
+	  height:80px;
+	  width:40%;
+	  float:left;
+	  text-align:center;
+	  padding-top:25px;
+	  font-size:30px;
+	  color:#054e9d;
+	  }
+/********************************header-navbar*****************************/
+      .header-navbar{
+	  height:80px;
+	  width:60%;
+	  float:left;
+	  }
+	  .header-navbar ul li{
+	   list-style-type:none;
+	   float:left;
+	   margin:30px 10px;
+	  }
+	  .header-navbar ul li a{
+		padding:8px 20px;
+		background:;
+		color:#555;
+	  }
+	  .header-navbar ul li a:hover{
+	   color:#054e9d;
+	  }
+	  .header-navbar ul li ul{
+		display:none;
+	  }
+	  .header-navbar ul li:hover ul{
+		display:block;
+		background:;
+		width:200;
+		position:absolute;
+		margin-top:5px;
+	  }
+     .header-navbar ul li:hover ul li{
+	  display:;
+	  float:none;
+	  color:#ffffff;
+	  margin:0px;
+	  border-bottom:2px solid #ffffff;  
+     }
+    .header-navbar ul li:hover ul li a{
+	 display:block;
+	 padding:15px 10px;
+	 color:#ffffff;
+	 background-color:green;
+    }
+	.header-navbar ul li:hover ul li a:hover{
+	background-color:blue;
+	}
+	.header-navbar .sub-menu{
+	  display:none !important;  
+	}
+     .header-navbar ul li:hover ul li:hover .sub-menu{
+	   display:block !important;
+		background:gray;
+		width:200;
+		padding:0px;
+		position:absolute;
+		margin-top:-45px;
+		box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+		margin-left:200px;
+	 }
+	 .header-navbar ul li:hover ul li:hover .sub-menu li a{
+		 background-color:red;
+	 }
+	 	.header-navbar .sub-menu1{
+	  display:none !important;  
+	}
+	.header-navbar ul li:hover ul li:hover .sub-menu:hover li:hover .sub-menu1{
+	   display:block !important;
+		background:gray;
+		width:200;
+		padding:0px;
+		position:absolute;
+		margin-top:-45px;
+		box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+		margin-left:200px;
+	 }
+	 	 .header-navbar ul li:hover ul li:hover .sub-menu1 li a{
+		 background-color:orange;
+	 }
+/*******************************header-end********************************/

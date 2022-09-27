@@ -1,0 +1,647 @@
+   *{
+    padding:0px;
+	margin:0px auto;
+	}
+	a{
+	text-decoration:none;
+	}
+/***************************header-start****************************/
+    #header{
+	height:80px;
+	width:100%;
+	background:#003471;
+	}
+/****************************header-logo****************************/
+    #header-logo{
+	height:80px;
+    width:55%;
+    background:;
+    float:left;	
+	}
+	#header-logo h2{
+    padding:25px;
+	color:#ffffe8;
+	}
+	#header-logo a{
+	color:#ffffe8;
+	}
+/***************************header-navbar***************************/
+    #header-navbar{
+	height:80px;
+	width:45%;
+	background:;
+	float:left;
+	}
+	#header-navbar ul{
+	padding-left:70px;
+	}
+	#header-navbar ul li{
+	list-style-type:none;
+    float:left;
+	margin:30px 16px;
+	}
+	#header-navbar ul li a{
+	color:#ffffff;
+	}
+	#header-navbar-search a{
+	 border:none;
+	 padding:5px;
+	}
+	#header-navbar-search a:hover{
+	color:red;
+	}
+/***************************slider-start****************************/
+    #slider{
+	height:550px;
+	width:100%;
+	background:;
+	background-image:url("C:/Users/lenovo/Desktop/restart-designing/tastew/img/slider.jpg");
+	}
+	#slider h1{
+	font-size:48px;
+	color:#003471;
+	padding-top:160px;
+    padding-left:100px;
+	font-weight:600;
+	margin-bottom:50px;
+	}
+	#slider ul li{
+	list-style-type:none;
+	margin-left:100px;
+	}
+    #slider-button1 a{
+	padding:10px 30px;
+	float:left;
+	background-color:#ffffff;
+	color:#000000;
+	margin:5px;
+	border:1px solid #ffffff;
+	}
+	#slider-button1 a:hover{
+	background-color:transparent;
+	color:#ffffff;
+	}
+	#slider-button2 a{
+	padding:10px 30px;
+	float:left;
+	background-color:#df1d1d;
+	color:#ffffff;
+	margin:5px;
+	border:1px solid #df1d1d;
+	}
+	#slider-button2 a:hover{
+	background-color:transparent;
+	color:#df1d1d;
+	}
+/****************************dishes1-start***************************/
+    #dishes1{
+	height:600px;
+	width:100%;
+	background:;
+	}
+/****************************dishes1-top*****************************/
+    #dishes1-top{
+	height:150px;
+	width:100%;
+	background:;
+	text-align:center;
+	}
+	#dishes1-top h2{
+	padding-top:80px;
+	font-size:32px;
+	}
+	#dishes1-top h2 span{
+	color:#df1d1d;
+	}
+/****************************dishes1-middle***************************/
+    #dishes1-middle{
+	height:300px;
+	width:100%;
+	background:;
+	}
+	#dishes1-middle img{
+	height:300px;
+	width:24%;
+	padding-left:8px;
+	}
+/****************************dishes1-bottom****************************/
+    #dishes1-bottom{
+	height:150px;
+	width:100%;
+	background:;
+	}
+/****************************about1-start*****************************/
+    #about1{
+	height:600px;
+	width:100%;
+	background:;
+	}
+/***************************about1-left********************************/
+    #about1-left{
+	height:600px;
+	width:50%;
+	background:;
+	float:left;
+	}
+    #about1-left img{
+	 height:500px;
+	 width:80%;
+	 padding-left:100px;
+	}
+/***************************about1-right********************************/
+     #about1-right{
+	  height:600px;
+	  width:100%;
+	  background:;
+	  padding-top:150px;
+	 }
+     #about1-right h2{
+	 padding-bottom:20px;
+	 font-size:32px;
+	 font-weight:bold;
+	 }
+	 #about1-right p{
+	  padding-bottom:40px;
+	  font-size:20;
+	 }
+	 #about1-right a{
+	  border:1px solid #df1d1d;
+	  font-size:20;
+	  padding:10px 30px;
+	  color:#ffffff;
+	  background-color:#df1d1d;
+	 }
+	 #about1-right a:hover{
+	  color:#df1d1d;
+	  background-color:#ffffff;
+	 }
+
+/**************************reservation-start****************************/
+    #reservation{
+	height:550px;
+    width:100%;	
+	background:;
+	background-image:url("C:/Users/lenovo/Desktop/restart-designing/tastew/img/res-bg.jpg")
+	}
+	#reservation-details{
+	 height:350px;
+	 width:35%;
+	 background:#ffffff;
+	 float:left;
+	 margin-top:100px;
+	 margin-left:200px;
+	}
+	#reservation-details1{
+	 height:70px;
+	 width:100%;
+	 background:#003471;
+	 color:#ffffff;
+	 text-align:center;
+	}
+	#reservation-details1 h3{
+	font-size:28px;
+	padding-top:20px;
+	}
+	#reservation-details2{
+	 height:280px; 
+	 width:100%;
+	 background:;
+	 text-align:center;
+	 font-size:24px;
+	}
+	#reservation-details2 h4{
+	 padding:15px;
+	}
+    #reservation-details2 h6{
+	 color:#df1d1d;
+	 font-size:16px;
+	 padding-bottom:8px;
+	}
+	#reservation-details2 h5{
+	 font-size:20px;
+	 padding-bottom:15px;
+	}
+	#reservation-details2 a{
+	color:#003471;
+	border:1px solid #003471;
+	padding:10px 25px;
+	}
+	#reservation-details2 a:hover{
+	 background:#003471;
+	 color:#ffffff;
+	}
+/****************************reservation-end****************************/	
+/*****************************recipe-start******************************/
+    #recipe{
+	height:670px;
+	width;100%;
+	background:;
+	}
+/******************************recipe-top*******************************/
+    #recipe-top{
+	height:200px;
+	width:100%;
+	background:;
+	text-align:center;
+	}
+	#recipe-top h2{
+	font-size:32px;
+    padding-top:100px;
+	}
+	#recipe-top h2 span{
+	color:#df1d1d;	
+	}
+/****************************recipe-bottom******************************/
+    #recipe-bottom{
+	height:470px;
+	width:100%;
+	background:;
+	}
+	#recipe-bottom1{
+	height:470px;
+	width:26%;
+	background:;
+	float:left;
+	margin-left:8%;
+	}
+	#recipe-bottom1 img{
+	height:240px;
+	width:100%;
+	}
+	#recipe-bottom1 h5{
+	font-size:20px;
+	padding:25px 0px;
+	}
+	#recipe-bottom1 p{
+	font-size:15px;
+	color:#444;
+	margin-bottom:28px;
+	}
+	#recipe-bottom1 a{
+	border:1px solid #003471;
+	background-color:#003471;
+	padding:10px 30px;
+	color:#ffffff;
+	}
+	#recipe-bottom1 a:hover{
+	color:#007bff;
+	background-color:transparent;
+	}
+	#recipe-bottom2{
+	height:470px;
+	width:26%;
+	background:;
+	float:left;
+	margin-left:3%;
+	}
+	#recipe-bottom2 img{
+	height:240px;
+	width:100%;
+	}
+	#recipe-bottom2 h5{
+	font-size:20px;
+	padding:25px 0px;
+	}
+	#recipe-bottom2 p{
+	font-size:15px;
+	color:#444;
+	margin-bottom:28px;
+	}
+	#recipe-bottom2 a{
+	border:1px solid #003471;
+	background-color:#003471;
+	padding:10px 30px;
+	color:#ffffff;
+	}
+	#recipe-bottom2 a:hover{
+	color:#007bff;
+	background-color:transparent;
+	}
+	#recipe-bottom3{
+	height:470px;
+	width:26%;
+	background:;
+	float:left;
+	margin-left:3%;
+	}
+	#recipe-bottom3 img{
+	height:240px;
+	width:100%;
+	}
+	#recipe-bottom3 h5{
+	font-size:20px;
+	padding:25px 0px;
+	}
+	#recipe-bottom3 p{
+	font-size:15px;
+	color:#444;
+	margin-bottom:28px;
+	}
+	#recipe-bottom3 a{
+	border:1px solid #003471;
+	background-color:#003471;
+	padding:10px 30px;
+	color:#ffffff;
+	}
+	#recipe-bottom3 a:hover{
+	color:#007bff;
+	background-color:transparent;
+	}
+/****************************recipe-end*********************************/
+/******************************touch1-start*****************************/
+    #touch1{
+	height:700px;
+	width:100%;
+	background:;
+	}
+/*******************************touch1-top******************************/
+    #touch1-top{
+	height:200px;
+	width:100%;
+	background:;
+	}
+	#touch1-top h2{
+	font-size:32px;
+    padding-top:100px;
+	text-align:center;
+	}
+	#touch1-top h2 span{
+	color:#df1d1d;	
+	}
+/*******************************touch1-bottom*****************************/
+    #touch1-bottom{
+	height:500px;
+	width:86%;
+	background:;
+	}
+	#touch1-bottom-left{
+	height:460px;
+	width:50%;
+	background:#003471;
+	float:left;
+	}
+	#touch1-bottom-left input{
+	height:50px;
+	width:86%;
+	padding-left:15px;
+	margin-left:40px;
+	margin-top:40px;
+	margin-bottom:-15px;
+	}
+	#touch1-bottom-left textarea{
+	height:100p;
+	width:86%;
+	padding-left:15px;
+	margin-left:40px;
+	margin-top:40px;
+	margin-bottom:30px;
+	}
+	#touch1-bottom-left a{
+	border:1px solid #df1d1d;
+	color:#ffffff;
+	margin-left:40px;
+	padding:15px 50px;
+	background-color:#df1d1d;
+	}
+	#touch1-bottom-left a:hover{	
+	color:#df1d1d;
+	background-color:transparent;
+	}
+	#touch1-bottom-right{
+	height:460px;
+	width:50%;
+	background:;
+	float:left;
+	}
+/*****************************testimonial-start***************************/
+    #testimonial{
+	height:650px;
+	width:100%;
+	background:;
+	}
+/*****************************testimonial-top*****************************/
+    #testimonial-top{
+	height:120px;
+	width:100%;
+	background:;
+	}
+	#testimonial-top h2{
+	text-align:center;
+	font-size:32px;
+	padding-top:50px;
+	}
+/*****************************testimonial-middle*****************************/
+    #testimonial-middle{
+	height:380px;
+	width:82%;
+	background:;
+	}
+/***************************testimonial-middle-left***************************/
+	#testimonial-middle-left{
+	height:380px;
+	width:48%;
+	background:#ffffff;
+	float:left;
+	}
+	#testimonial-middle-left:hover{
+	background-color:#f3f3f3;
+	color:black;
+	}
+	#testimonial-middle-left-image{
+	height:230px;;
+	width:40%;
+	background:;
+	float:left;
+	margin-left:25px;
+    margin-top:25px;
+	}
+	#testimonial-middle-left-name{
+	height:230px;;
+	width:50%;
+	background:;
+	float:left;
+	margin-top:25px;
+	}
+	#testimonial-middle-left-name h5{
+	font-size:20px;
+	padding-left:15px;
+	padding-top:80px;
+	}
+	#testimonial-middle-left-name p{
+	padding-left:15px;
+	color:#003471;
+	font-size:20px;
+	}
+	#testimonial-middle-left-bottom{
+	height:125px;
+	width:100%;
+	background:;
+	float:left;
+	}
+	#testimonial-middle-left-bottom p{
+	font-size:20px;
+	padding-left:25px;
+    padding-top:20px;
+    }
+/****************************testimonial-middle-right*************************/
+	#testimonial-middle-right{
+	height:380px;
+	width:48%;
+	background:;
+	float:left;
+	margin-left:4%;
+	}
+	#testimonial-middle-right:hover{
+	background-color:#f3f3f3;
+	color:black;
+	}
+	#testimonial-middle-right-image{
+	height:230px;;
+	width:40%;
+	background:;
+	float:left;
+	margin-left:25px;
+    margin-top:25px;
+	}
+	#testimonial-middle-right-name{
+	height:230px;;
+	width:50%;
+	background:;
+	float:left;
+	margin-top:25px;
+	}
+	#testimonial-middle-right-name h5{
+	font-size:20px;
+	padding-left:15px;
+	padding-top:80px;
+	}
+	#testimonial-middle-right-name p{
+	padding-left:15px;
+	color:#003471;
+	font-size:20px;
+	}
+	#testimonial-middle-right-bottom{
+	height:125px;
+	width:100%;
+	background:;
+	float:left;
+	}
+	#testimonial-middle-right-bottom p{
+	font-size:20px;
+	padding-left:25px;
+    padding-top:20px;
+    }
+/*****************************testimonial-bottom*****************************/
+    #testimonial-bottom{
+	height:150px;
+	width:100%;
+	background:;
+	}
+/*****************************footer-start******************************/
+    #footer{
+	height:600px;
+	width:100%;
+	background:;
+	}
+/****************************footer-top*********************************/
+    #footer-top1{
+	height:150px;
+	width:100%;
+	background:#252525;
+	text-align:center;
+	padding-bottom:30px;
+	}
+	#footer-top1 h5{
+	 color:#ffffff;
+	 font-weight:600;
+	 font-size:18px;
+	 padding-top:70px;
+	 margin-bottom:20px;
+	}
+	#footer-top1 ul{
+	margin-left:500px;
+	}	
+	#footer-top1 ul li{
+	list-style-type:none;
+	margin:0px 10px;
+	float:left;
+	}
+	#footer-top1 ul li a{
+	color:#878585;
+	}
+	#footer-top2{
+	height:150px;
+	width:75%;
+	background:#252525;
+	text-align:;
+	padding-top:0px;
+	float:left;
+	}
+	#footer-top2 i{
+	border:1px solid #df1d1d;
+	text-align:center;
+	line-height:45px;
+	border-radius:5px;
+	font-size:18px;
+	margin-right:10px;
+	height:45px;
+	width:45px;
+	margin-left:50px;
+	}
+	#footer-top2 a{
+	color:#ffffff;
+	}
+	#footer-top2 a span{
+	margin-right:100px;
+	font-size:18px;
+	}
+	#footer-top3{
+	height:150px;
+	width:25%;
+	background:#252525;
+	float:left;
+	}
+	#footer-top3 input{
+	height:45px;
+	width:230px;
+	padding-left:10px;
+	margin-left:10px;
+	}
+	#footer-top3 button{
+	height:45px;
+	width:45px;
+	background-color:#df1d1d;
+	color:#ffffff;
+	margin-left:-5px;
+	}
+/****************************footer-bottom******************************/
+    #footer-bottom{
+	height:300;
+	width:100%;
+	margin-top:150px;
+	background:;
+	}
+	#footer-bottom p{
+	color:#252525;
+	padding:25px 0px;
+	text-align:center;
+	margin-bottom:50px;
+	}
+	#footer-bottom p a{
+	color:inherit;
+	}
+	#advertise{
+	padding:25px 100px;
+	background-color:e7e7e7;
+	color:#666;
+	border:1px solid black;
+	}
+	#advertise a:hover{
+	color:#007bff;
+	}
+/*****************************footer-end**********************************/
+/****************************about-pg-start*******************************/
+    .about-sec{
+	margin-top:80px;
+	}
+/****************************about-pg-end********************************/
